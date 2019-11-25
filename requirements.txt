@@ -351,7 +351,7 @@ tqdm==4.28.1
 traitlets==4.3.2
 tweepy==3.6.0
 twilio==6.27.0
-Twisted==17.5.0
+Twisted==19.7.0
 typed-ast==1.1.0
 typing==3.6.4
 typing-extensions==3.7.2
