@@ -317,5 +317,4 @@ def show_results():
     return render_template("marks.html", ans1=ans1,s1=s1, ans2=ans2,s2=s2,tot = round((s1+s2),3))
 
 if __name__ == "__main__":
-    app.debug = True
-    app.run(debug=True)
+    aapp.run()
