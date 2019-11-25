@@ -279,6 +279,7 @@ def clean_sentence(val):
 ############ functions for similarity check ##################
 # One word answer checker
 def q1(given_ans, correct_ans):
+    given_ans = given_ans.strip().lower()
     if SequenceMatcher(None, given_ans, correct_ans).ratio() < 0.49:
         return 0
     return SequenceMatcher(None, given_ans, correct_ans).ratio()
