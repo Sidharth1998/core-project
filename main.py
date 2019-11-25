@@ -3,6 +3,7 @@ from difflib import SequenceMatcher
 from textblob import TextBlob
 from nltk.corpus import stopwords
 from nltk import download
+download('stopwords')
 
 app = Flask(__name__)
 
